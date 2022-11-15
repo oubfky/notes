@@ -54,3 +54,42 @@ print(floor(5.1))
 print(ceil(3.7))
 print(sqrt(36))
 
+# name = input("Enter your name:")
+# print("Hello "+ name + "!" )
+
+# num1 = input("Enter a number:")
+# num2 = input("Enter another number:")
+# result = num1+num2 # string
+# result = int(num1)+int(num2)
+# result = float(num1) + float(num2)
+# print(result)
+
+# color = input("Enter a color:")
+# plural_noun = input("Enter a Plural Noun:")
+# celebrity = input("Enter a celebrity")
+# print("Roses are " + color)
+# print(plural_noun + " are blue")
+# print("I love " + celebrity)
+
+# list
+friends = ["Kevin","Karen","Jim"]
+friends = ["Kevin",2,"Jim","Kitty","Opera"]
+print(friends)
+print(friends[2])
+print(friends[0])
+print(friends[-1])
+print(friends)
+friends[0] = "Mark"
+print(friends)
+friends[0] = "Kevin"
+print(friends)
+
+lucky_numbers = [1, 4, 5, 6, 1, 3, 1]
+print(lucky_numbers)
+friends.extend(lucky_numbers)
+friends.append("Creed")
+friends.insert(1,"apple") # insert one element, all the other elements pushed to the right
+#friends.clear() # clear the list
+print(friends)
+friends.pop()
+print(friends)
